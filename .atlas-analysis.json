@@ -1,0 +1,164 @@
+{
+  "projectType": "data-platform",
+  "projectName": "Apache Spark",
+  "projectDescription": "A unified analytics engine for large-scale data processing with built-in modules for SQL, streaming, machine learning, and graph processing.",
+  "theme": "aspen",
+  "primaryColor": "#E25A1C",
+  "lightColor": "#F47B20",
+  "darkColor": "#C7491A",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation",
+              "building-spark"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "architecture/overview",
+              "architecture/cluster-modes",
+              "architecture/spark-core",
+              "programming-guide/rdd-basics"
+            ]
+          },
+          {
+            "group": "Programming Guides",
+            "pages": [
+              "programming/scala-guide",
+              "programming/python-guide",
+              "programming/java-guide",
+              "programming/r-guide"
+            ]
+          },
+          {
+            "group": "Spark SQL",
+            "pages": [
+              "sql/overview",
+              "sql/dataframes-datasets",
+              "sql/sql-syntax",
+              "sql/data-sources",
+              "sql/performance-tuning"
+            ]
+          },
+          {
+            "group": "Streaming",
+            "pages": [
+              "streaming/structured-streaming",
+              "streaming/streaming-programming-guide",
+              "streaming/kafka-integration",
+              "streaming/stateful-operations"
+            ]
+          },
+          {
+            "group": "Machine Learning",
+            "pages": [
+              "mllib/overview",
+              "mllib/pipelines",
+              "mllib/classification-regression",
+              "mllib/clustering",
+              "mllib/feature-extraction"
+            ]
+          },
+          {
+            "group": "Graph Processing",
+            "pages": [
+              "graphx/overview",
+              "graphx/graph-operators",
+              "graphx/algorithms"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Deployment",
+        "groups": [
+          {
+            "group": "Cluster Management",
+            "pages": [
+              "deployment/overview",
+              "deployment/standalone-mode",
+              "deployment/yarn",
+              "deployment/kubernetes",
+              "deployment/submitting-applications"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/spark-config",
+              "configuration/environment-variables",
+              "configuration/security",
+              "configuration/monitoring"
+            ]
+          },
+          {
+            "group": "Operations",
+            "pages": [
+              "operations/performance-tuning",
+              "operations/job-scheduling",
+              "operations/hardware-provisioning",
+              "operations/cloud-integration"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Language APIs",
+            "pages": [
+              "api/scala-api",
+              "api/python-api",
+              "api/java-api",
+              "api/r-api",
+              "api/sql-functions"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/configuration-properties",
+              "reference/sql-syntax-reference",
+              "reference/data-types",
+              "reference/migration-guide"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Unified analytics engine for batch and stream processing",
+    "SQL query engine with Catalyst optimizer",
+    "High-level APIs in Scala, Java, Python, and R",
+    "Built-in libraries for machine learning (MLlib) and graph processing (GraphX)",
+    "Structured Streaming for real-time data processing",
+    "Support for multiple data sources (Parquet, JSON, CSV, Kafka, JDBC, etc.)",
+    "Multiple deployment modes (Standalone, YARN, Kubernetes, Mesos)",
+    "In-memory computation for fast iterative algorithms"
+  ],
+  "publicApiSurface": [
+    "SparkContext - Main entry point for Spark functionality",
+    "SparkSession - Unified entry point for DataFrame and SQL APIs",
+    "DataFrame / Dataset APIs - Distributed collection APIs",
+    "RDD API - Resilient Distributed Dataset interface",
+    "Spark SQL - SQL query interface",
+    "Structured Streaming API - Stream processing interface",
+    "MLlib - Machine learning library (classification, regression, clustering, etc.)",
+    "GraphX API - Graph processing framework",
+    "PySpark - Python API for Spark",
+    "spark-submit - Application submission tool",
+    "spark-shell - Interactive Scala shell",
+    "pyspark - Interactive Python shell",
+    "spark-sql - SQL CLI interface"
+  ]
+}
